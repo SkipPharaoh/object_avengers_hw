@@ -158,5 +158,5 @@ for (let i=0;i<instruments.guitar.electric.length;i++){
 
 // 3) Add a vocals property to the object that includes a list of your favorite singers
 
-instruments.vocals = ["Michael Jackson", "Whitney Houston", "Beyonce", "Stevie Wonder", "Arethe Franklin", "Luther Vandross", "Marvin Gaye", "Brian McKnight"]
+instruments.vocals = ["Michael Jackson", "Whitney Houston", "Beyonce", "Stevie Wonder", "Aretha Franklin", "Luther Vandross", "Marvin Gaye", "Brian McKnight"]
 console.log(instruments.vocals)
