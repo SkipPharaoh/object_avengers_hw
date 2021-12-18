@@ -160,3 +160,40 @@ for (let i=0;i<instruments.guitar.electric.length;i++){
 
 instruments.vocals = ["Michael Jackson", "Whitney Houston", "Beyonce", "Stevie Wonder", "Aretha Franklin", "Luther Vandross", "Marvin Gaye", "Brian McKnight"]
 console.log(instruments.vocals)
+
+// HUNGRY FOR MORE? - GARMONBOZIA
+
+const garmonbozia = {
+    meltedFace: true,
+    wobblyArms: true,
+    mysteryMeats: [
+      'Schlimmbinooks',
+      'blangs',
+      { place: 'Akrotiri', treasures: ['Minoan temples', 'volcanoes'] },
+      { type: 'Yuck-tops', deliverables: [
+        'Nevermind',
+        { zone: 'safety-zone' },
+        { zone: false, true: true },
+        () => {
+          return () => {
+            return () => {
+              return () => {
+                return () => {
+                  return { website: 'Gossipcop.com', what: {
+                    offering: 'creamed corn', location: 'dark'
+                  }
+                  }
+                }
+              }
+            }
+          }
+        }
+       ]
+      }
+    ]
+}
+
+// console.log 'creamed corn'
+
+console.log(garmonbozia.mysteryMeats[3].deliverables[3]()()()()().what.offering)
+
