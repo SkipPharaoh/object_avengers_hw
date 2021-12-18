@@ -92,3 +92,21 @@ console.log(blackWidow.aliases.realName)
 // 2) The following code logs Natalie Rushman
 
 console.log(blackWidow.aliases.otherNotableAliases[1])
+
+// AVENGERS NESTED 
+
+const theAvengers = [
+    { name: 'Tony Stark', superheroName: 'Iron Man'},
+    { name: 'Steve Rogers', superheroName: 'Captain America' },
+    { name: 'Bruce Banner', superheroName: 'The Hulk'},
+    { name: 'Thor' },
+    { name: 'Natasha Romanoff', superheroName: 'Black Widow' },
+    { name: 'Clint Barton', superheroName: 'Hawkeye' }
+  ]
+
+// Looping through theAvengers and log just their name.
+
+for (let i=0;i<theAvengers.length;i++){
+    console.log(theAvengers[i].name)
+}
+
