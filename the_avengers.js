@@ -50,3 +50,45 @@ console.log(ironMan.marvelMovieAppearances.spiderManHomecoming)
 // 5) Check if jarvis is there by calling on the jarvisAreYouThere function
 
 ironMan.jarvisAreYouThere()
+
+// ASSEMBLING OTHER AVENGERS
+
+const captainAmerica = {
+    regularName: 'Steven Grant "Steve" Rogers',
+    aliases: {
+        superheroName: 'Captain America'
+    },
+    abilities: ['peak human agility', 'peak human stamina','peak human strength'],
+    sayPhrase: function(){
+        return "I can do this all day"
+    }
+}
+
+// 1) The following code logs Captain America
+
+console.log(captainAmerica.aliases.superheroName)
+
+// 2) The following code logs peak human strength
+
+console.log(captainAmerica.abilities[2])
+
+// 3) The following code logs i can do this all day
+
+console.log(captainAmerica.sayPhrase())
+
+// Create a data structure for blackWidow such that...
+
+const blackWidow = {
+    aliases: {
+        realName: 'Natalia Alianovna Romanova',
+        otherNotableAliases: ['Natasha Romanoff','Natalie Rushman', 'Nat']
+    }
+}
+
+// 1) The following code logs Natalia Alianovna Romanova
+
+console.log(blackWidow.aliases.realName)
+
+// 2) The following code logs Natalie Rushman
+
+console.log(blackWidow.aliases.otherNotableAliases[1])
