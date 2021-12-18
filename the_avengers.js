@@ -130,3 +130,33 @@ for (let i=0;i<mcuMovies.length;i++){
         console.log(mcuMovies[i][j])
     }
 }
+
+// OTHER OBJECTS - INSTRUMENTS
+
+const instruments = {
+    banjo: ["1920 gibson", "deering", "washburn"],
+    guitar: {
+      acoustic: ["martin", "taylor", "santa cruz", "gibson"],
+      electric: ["fender Strat", "telecaster", "PRS", "languedoc"],
+      nylon: ["baldwin", "cordoba"]
+    },
+    mandolin: ["eastman", "weber", "collings"]
+}
+
+// 1) Log all of the following: telecaster, santa cruz, washburn, weber
+
+console.log(instruments.guitar.electric[1])
+console.log(instruments.guitar.acoustic[2])
+console.log(instruments.banjo[2])
+console.log(instruments.mandolin[1])
+
+// 2) Loop through all the electric guitars and log them
+
+for (let i=0;i<instruments.guitar.electric.length;i++){
+    console.log(instruments.guitar.electric[i])
+}
+
+// 3) Add a vocals property to the object that includes a list of your favorite singers
+
+instruments.vocals = ["Michael Jackson", "Whitney Houston", "Beyonce", "Stevie Wonder", "Arethe Franklin", "Luther Vandross", "Marvin Gaye", "Brian McKnight"]
+console.log(instruments.vocals)
